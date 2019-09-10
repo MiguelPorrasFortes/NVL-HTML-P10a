@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+<h1>Product Satisfaction Survey</h1>
+ <form action="/action_page.php">
+  Zip Code:<br>
+  <input type="text" name="zipcode" value="28000"><br><br>
+  Product Satisfaction <br>
+<select name="Product Satisfaction" form="productsatisfaction">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br><br>
+  Email Address:<input type="text" name="emailaddress">
+<br><br>
+Positive points about the product<br><br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter your text here...</textarea><br><br>
+Negative points about the product<br><br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter your text here...</textarea><br><br>
+  Utility <br>
+<select name="Product Satisfaction" form="productsatisfaction">
+  <option value="Excellent">Excellent</option>
+  <option value="Good">Good</option>
+  <option value="Regular">Regular</option>
+  <option value="Horrible">Horrible</option>
+  </select><br><br>
+<select name="Space Optimization" form="spaceoptimization">
+  <option value="Excellent">Excellent</option>
+  <option value="Good">Good</option>
+  <option value="Regular">Regular</option>
+  <option value="Horrible">Horrible</option>
+  </select><br><br>
+  <input type="submit" value="Submit">
+</form> 
+  </body>
+</html>
